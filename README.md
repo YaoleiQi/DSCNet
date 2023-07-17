@@ -1,4 +1,4 @@
-![intro](https://github.com/YaoleiQi/DSCNet/assets/50353553/2bf3418c-9ffd-421e-ada9-9b85a1363173)# Dynamic Snake Convolution based on Topological Geometric Constraints for Tubular Structure Segmentation
+# Dynamic Snake Convolution based on Topological Geometric Constraints for Tubular Structure Segmentation
 
 [NEWS!]This paper has been accepted by ICCV 2023!
 
