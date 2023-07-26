@@ -15,8 +15,12 @@ Yaolei Qi, Yuting He, Xiaoming Qi, Yuan Zhang, Guanyu Yang*
 Southeast University  
 **IEEE/CVF Conference on International Conference on Computer Vision 2023**
 
-## Model
-(We will update in the **<font color="red">next 4 weeks</font>** ...)
+## Model - The easiest and fastest way to reproduce!
+
+
+(We will update other contents in the **<font color="red">next 4 weeks</font>** ...)
+
+## Model - Introduction of our code!
 
 ## Citation
 (Please wait for updating ...)
