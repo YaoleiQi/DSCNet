@@ -1,5 +1,7 @@
 # Dynamic Snake Convolution based on Topological Geometric Constraints for Tubular Structure Segmentation
 
+[Sorry]Our server has had some problems recently, so the upload of the code needs to be delayed for 1-2 weeks, thank you very much for your attention, we will synchronize the open-source 3D pre-training parameters for tubular structure data!! Thank you for your understanding!
+
 [NEWS!]This paper has been accepted by **<font color="blue">ICCV 2023</font>**!
 
 [NOTE!!]The code will be gradually and continuously opened!
@@ -16,9 +18,8 @@ Southeast University
 **IEEE/CVF Conference on International Conference on Computer Vision 2023**
 
 ## Model - The easiest and fastest way to reproduce!
-
-
 (We will update other contents in the **<font color="red">next 4 weeks</font>** ...)
+Our server has had some problems recently, so the upload of the code needs to be delayed for 1-2 weeks, thank you very much for your attention, we will synchronize the open-source 3D pre-training parameters for tubular structure data!! Thank you for your understanding!
 
 ## Model - Introduction of our code!
 
