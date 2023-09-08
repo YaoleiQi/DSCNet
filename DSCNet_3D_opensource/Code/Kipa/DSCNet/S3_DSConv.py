@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 import torch
-import numpy as np
 from torch import nn, cat
-import os
 
 
 class Conv(nn.Module):
@@ -133,9 +131,15 @@ class DCN(object):
             z_new = z_center + z_grid
             y_new = y_center + y_grid
             x_new = x_center + x_grid                           # [N*K*K*K,D,W,H]
+
+            z_new = z_new.repeat(self.num_batch, 1, 1, 1, 1)
+            y_new = y_new.repeat(self.num_batch, 1, 1, 1, 1)
+            x_new = x_new.repeat(self.num_batch, 1, 1, 1, 1)
+
             z_new = z_new.to(self.device)
             y_new = y_new.to(self.device)
             x_new = x_new.to(self.device)
+
             z_offset1_new = z_offset1.detach().clone()
             y_offset1_new = y_offset1.detach().clone()
 
@@ -194,6 +198,11 @@ class DCN(object):
             z_new = z_center + z_grid
             y_new = y_center + y_grid
             x_new = x_center + x_grid  # [N*K*K*K,D,W,H]
+
+            z_new = z_new.repeat(self.num_batch, 1, 1, 1, 1)
+            y_new = y_new.repeat(self.num_batch, 1, 1, 1, 1)
+            x_new = x_new.repeat(self.num_batch, 1, 1, 1, 1)
+
             z_new = z_new.to(self.device)
             y_new = y_new.to(self.device)
             x_new = x_new.to(self.device)
@@ -252,6 +261,11 @@ class DCN(object):
             z_new = z_center + z_grid
             y_new = y_center + y_grid
             x_new = x_center + x_grid  # [N*K*K*K,D,W,H]
+
+            z_new = z_new.repeat(self.num_batch, 1, 1, 1, 1)
+            y_new = y_new.repeat(self.num_batch, 1, 1, 1, 1)
+            x_new = x_new.repeat(self.num_batch, 1, 1, 1, 1)
+            
             z_new = z_new.to(self.device)
             y_new = y_new.to(self.device)
             x_new = x_new.to(self.device)
@@ -415,27 +429,3 @@ class DCN(object):
         z, y, x = self._coordinate_map_3D(offset, if_offset)
         deformed_feature = self._bilinear_interpolate_3D(input, z, y, x)
         return deformed_feature
-
-
-# if __name__ == '__main__':
-#     # A = np.random.rand(16, 3, 3)
-#     os.environ["CUDA_VISIBLE_DEVICES"] = '0'  # 使用第0块显卡
-#     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-#     A = np.random.rand(16, 6, 7, 8)
-#     # print(A)
-#     A = A.astype(dtype=np.float32)
-#     A = A[np.newaxis, :, :, :, :]
-#     A = torch.from_numpy(A)
-#     # print(A.shape)
-#     conv0 = DCN_Conv(
-#         in_ch=16,
-#         out_ch=32,
-#         kernel_size=9,
-#         extend_scope=1,
-#         morph=0,
-#         if_offset=True,
-#         device=device)
-#     if torch.cuda.is_available():
-#         A = A.to(device)
-#         conv0 = conv0.to(device)
-#     out = conv0(A)
