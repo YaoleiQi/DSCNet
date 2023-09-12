@@ -14,6 +14,12 @@
 
 [NOTE!!]The code will be gradually and continuously opened!
 
+## NEWS —— We update the visualization results !!
+
+We visualize the whole process of our ***DSConv*** during the complete training process!! (Recorded after every two epochs) The convolution kernel is gradually adapting to the vessel. 
+
+<div align="center"><img src="Fig/Location.gif" alt="results" style="zoom:60%;" /></div>
+
 ## Introduction  
 
 ### Background
@@ -39,6 +45,8 @@ Hence, the synergy between specialized models and foundation models will drive r
 Drawing inspiration from the concept of Deformable Convolution [3](https://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf) ***(I really like this impressive work!)***, our aim is to enable the model to dynamically adapt the shape of its convolution kernel while learning features. This approach allows the model to concentrate on the fundamental structural attributes of tubular formations. However, during our initial experiments, we observed that, due to the relatively small proportion of tubular structures, the model tends to lose its perception of these specific structures. Consequently, the convolution kernel deviates significantly from its intended focus. To address this issue, we propose the design of a specialized network structure tailored to the characteristics of tubular structures. This specialized structure serves as a guiding framework, ensuring that the model prioritizes key features effectively.
 
 <div align="center"><img src="Fig/motivation.png" alt="results" style="zoom:60%;" /></div>
+
+
 
 ### Method
 
