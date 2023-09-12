@@ -1,4 +1,8 @@
-# Dynamic Snake Convolution based on Topological Geometric Constraints for Tubular Structure Segmentation
+# [Dynamic Snake Convolution based on Topological Geometric Constraints for Tubular Structure Segmentation](https://yaoleiqi.github.io/pub_homepage/2023_ICCV/index.html)
+
+[Project Page](https://yaoleiqi.github.io/pub_homepage/2023_ICCV/index.html)
+
+[NEWS!]We update a project page to visualize some interesting results!!
 
 [NEWS!]Our 3D version has been open-sourced!! TCLoss will also be online soon!! Thank you very much for waiting!!
 
