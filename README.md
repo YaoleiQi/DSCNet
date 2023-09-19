@@ -1,6 +1,6 @@
 # [Dynamic Snake Convolution based on Topological Geometric Constraints for Tubular Structure Segmentation](https://yaoleiqi.github.io/pub_homepage/2023_ICCV/index.html)
 
-[Project Page](https://yaoleiqi.github.io/pub_homepage/2023_ICCV/index.html)
+[![GitHub Page](https://img.shields.io/badge/GitHub-Page-159957.svg)](https://yaoleiqi.github.io/pub_homepage/2023_ICCV/index.html)
 
 [NEWS!]We update a project page to visualize some interesting results!!
 
