@@ -4,7 +4,9 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2308.14383-b31b1b.svg)](https://arxiv.org/abs/2307.08388)
 [![GitHub](https://img.shields.io/github/stars/YaoleiQi/DSCNet)](https://github.com/YaoleiQi/DSCNet)
 
-[NEWS!]We update a project page to visualize some interesting results!!
+[Note!]We will soon upload a version for RGB 3-channel images, which will include the segmentation of remote-sensing road images, thank you for your attention!
+
+[NEWS!]We updated a project page to visualize some interesting results!!
 
 [NEWS!]Our 3D version has been open-sourced!! TCLoss will also be online soon!! Thank you very much for waiting!!
 
