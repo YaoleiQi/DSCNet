@@ -142,10 +142,10 @@ x_offset_new[center - index] = (x_offset_new[center - index + 1] + x_offset[cent
 
 ## Citation
 @InProceedings{Qi_2023_ICCV,<br/>
-& emsp;author    = {Qi, Yaolei and He, Yuting and Qi, Xiaoming and Zhang, Yuan and Yang, Guanyu},<br/>
-& emsp;title     = {Dynamic Snake Convolution Based on Topological Geometric Constraints for Tubular Structure Segmentation},<br/>
-& emsp;booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},<br/>
-& emsp;month     = {October},<br/>
-& emsp;year      = {2023},<br/>
-& emsp;pages     = {6070-6079}<br/>
+& emsp; author    = {Qi, Yaolei and He, Yuting and Qi, Xiaoming and Zhang, Yuan and Yang, Guanyu},<br/>
+& emsp; title     = {Dynamic Snake Convolution Based on Topological Geometric Constraints for Tubular Structure Segmentation},<br/>
+& emsp; booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},<br/>
+& emsp; month     = {October},<br/>
+& emsp; year      = {2023},<br/>
+& emsp; pages     = {6070-6079}<br/>
 }
