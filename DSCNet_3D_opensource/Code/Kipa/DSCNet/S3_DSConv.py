@@ -287,8 +287,8 @@ class DCN(object):
                     y_offset2_new[center - index] = y_offset2_new[center - index + 1] + y_offset2[center - index]
                 x_offset2_new = x_offset2_new.permute(1, 0, 2, 3, 4).to(self.device)
                 y_offset2_new = y_offset2_new.permute(1, 0, 2, 3, 4).to(self.device)
-                x_new = z_new.add(x_offset2_new.mul(self.extend_scope))
-                y_new = x_new.add(y_offset2_new.mul(self.extend_scope))
+                x_new = x_new.add(x_offset2_new.mul(self.extend_scope))
+                y_new = y_new.add(y_offset2_new.mul(self.extend_scope))
 
             z_new = z_new.reshape([self.num_batch, self.num_points, 1, 1, self.depth, self.width, self.height])
             z_new = z_new.permute(0, 4, 1, 5, 2, 6, 3)
