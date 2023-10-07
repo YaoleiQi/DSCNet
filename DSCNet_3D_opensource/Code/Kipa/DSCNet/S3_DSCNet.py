@@ -101,7 +101,7 @@ class DSCNet(nn.Module):
         # block0
         # x = self.maxpooling(x)
         x_00_0 = self.conv00(x)
-        x_0x_0 = self.conv0z(x)
+        x_0x_0 = self.conv0x(x)
         x_0y_0 = self.conv0y(x)
         x_0z_0 = self.conv0z(x)
         x_0_1 = self.conv1(cat([x_00_0, x_0x_0, x_0y_0, x_0z_0], dim=1))
