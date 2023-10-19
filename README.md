@@ -116,7 +116,7 @@ K_{i\pm c}=\left\{
 $$
 
 ```python
-for index in range(1, center):
+for index in range(1, center + 1):
 y_offset_new[center + index] = (y_offset_new[center + index - 1] + y_offset[center + index])
 y_offset_new[center - index] = (y_offset_new[center - index + 1] + y_offset[center - index])
 ```
@@ -133,7 +133,7 @@ K_{j\pm c}=\left\{
 $$
 
 ```python
-for index in range(1, center):
+for index in range(1, center + 1):
 x_offset_new[center + index] = (x_offset_new[center + index - 1] + x_offset[center + index])
 x_offset_new[center - index] = (x_offset_new[center - index + 1] + x_offset[center - index])
 ```
