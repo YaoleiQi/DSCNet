@@ -1,8 +1,12 @@
-# [Dynamic Snake Convolution based on Topological Geometric Constraints for Tubular Structure Segmentation](https://yaoleiqi.github.io/pub_homepage/2023_ICCV/index.html)
+# Dynamic Snake Convolution based on Topological Geometric Constraints for Tubular Structure Segmentation
 
-[Project Page](https://yaoleiqi.github.io/pub_homepage/2023_ICCV/index.html)
+[![GitHub Page](https://img.shields.io/badge/GitHub-Page-159957.svg)](https://yaoleiqi.github.io/pub_homepage/2023_ICCV/index.html) 
+[![arXiv](https://img.shields.io/badge/arXiv-2308.14383-b31b1b.svg)](https://arxiv.org/abs/2307.08388)
+[![GitHub](https://img.shields.io/github/stars/YaoleiQi/DSCNet)](https://github.com/YaoleiQi/DSCNet)
 
-[NEWS!]We update a project page to visualize some interesting results!!
+[Note!]We will soon upload a version for RGB 3-channel images, which will include the segmentation of remote-sensing road images, thank you for your attention!
+
+[NEWS!]We updated a project page to visualize some interesting results!!
 
 [NEWS!]Our 3D version has been open-sourced!! TCLoss will also be online soon!! Thank you very much for waiting!!
 
@@ -112,7 +116,7 @@ K_{i\pm c}=\left\{
 $$
 
 ```python
-for index in range(1, center):
+for index in range(1, center + 1):
 y_offset_new[center + index] = (y_offset_new[center + index - 1] + y_offset[center + index])
 y_offset_new[center - index] = (y_offset_new[center - index + 1] + y_offset[center - index])
 ```
@@ -129,14 +133,18 @@ K_{j\pm c}=\left\{
 $$
 
 ```python
-for index in range(1, center):
+for index in range(1, center + 1):
 x_offset_new[center + index] = (x_offset_new[center + index - 1] + x_offset[center + index])
 x_offset_new[center - index] = (x_offset_new[center - index + 1] + x_offset[center - index])
 ```
 
 
-
-
 ## Citation
-(Please wait for updating ...)
-
+@InProceedings{Qi_2023_ICCV,<br/>
+&emsp; author    = {Qi, Yaolei and He, Yuting and Qi, Xiaoming and Zhang, Yuan and Yang, Guanyu},<br/>
+&emsp; title     = {Dynamic Snake Convolution Based on Topological Geometric Constraints for Tubular Structure Segmentation},<br/>
+&emsp; booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},<br/>
+&emsp; month     = {October},<br/>
+&emsp; year      = {2023},<br/>
+&emsp; pages     = {6070-6079}<br/>
+}
