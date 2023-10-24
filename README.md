@@ -4,6 +4,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2308.14383-b31b1b.svg)](https://arxiv.org/abs/2307.08388)
 [![GitHub](https://img.shields.io/github/stars/YaoleiQi/DSCNet)](https://github.com/YaoleiQi/DSCNet)
 
+[NEWS!] We will soon open-source the **pre-trained parameters** of all our current training data, the TCLoss loss, and the **explanation of the complete training process** to help everyone better replicate our code and achieve the metrics in our paper. Thank you very much for your attention. *It has been quite challenging to maintain these codes on my own and cater to everyone's application needs. I truly appreciate everyone's patience while waiting.*
+
 [NEWS!] Computational efficiency and availability have always been crucial considerations for us! Therefore, **we have already released an optimized version of the dynamic snake convolution**. This new implementation leverages established algorithm libraries, and certain parts of the logic have been further refined. _It's noteworthy that training on the entire DRIVE dataset on a machine with similar specifications to the 4090 takes less than 4 minutes for 400 epochs_, thanks to a combination of algorithmic acceleration strategies. You can find the updated version at the following location: "~/DSCNet_2D_opensource/Code/DRIVE/". We appreciate your attention and support. **I am deeply grateful to my friends for their assistance!**
 
 **We hope that those interested in our work will consider citing it！ Thank you very much！**
