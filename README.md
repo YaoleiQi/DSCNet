@@ -98,9 +98,9 @@ This code contains all the "Parameters" for the entire project -- <DSCNet>
 Code Introduction: (The easiest way to run a code!)
     !!! You just need to change lines with "# todo" to get straight to run
     !!! Our code is encapsulated, but it also provides some test interfaces for debugging
-    !!! If you want to change the dataset, you can change "DRIVE" to other task name
+    !!! If you want to change the dataset, you can change "DRIVE" to other task names
 """
-# Change the todo content and than run ...
+# Change the todo content and then run ...
 > python S0_Main.py
 ```
 
