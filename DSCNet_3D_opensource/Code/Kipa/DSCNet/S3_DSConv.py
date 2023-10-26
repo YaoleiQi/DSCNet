@@ -151,7 +151,7 @@ class DCN(object):
                 center = int(self.num_points // 2)
                 z_offset1_new[center] = 0
                 y_offset1_new[center] = 0
-                for index in range(1, center):
+                for index in range(1, center + 1):
                     z_offset1_new[center + index] = z_offset1_new[center + index - 1] + z_offset1[center + index]
                     z_offset1_new[center - index] = z_offset1_new[center - index + 1] + z_offset1[center - index]
                     y_offset1_new[center + index] = y_offset1_new[center + index - 1] + y_offset1[center + index]
@@ -217,7 +217,7 @@ class DCN(object):
                 center = int(self.num_points // 2)
                 x_offset1_new[center] = 0
                 z_offset2_new[center] = 0
-                for index in range(1, center):
+                for index in range(1, center + 1):
                     x_offset1_new[center + index] = x_offset1_new[center + index - 1] + x_offset1[center + index]
                     x_offset1_new[center - index] = x_offset1_new[center - index + 1] + x_offset1[center - index]
                     z_offset2_new[center + index] = z_offset2_new[center + index - 1] + z_offset2[center + index]
@@ -280,7 +280,7 @@ class DCN(object):
                 center = int(self.num_points // 2)
                 x_offset2_new[center] = 0
                 x_offset2_new[center] = 0
-                for index in range(1, center):
+                for index in range(1, center + 1):
                     x_offset2_new[center + index] = x_offset2_new[center + index - 1] + x_offset2[center + index]
                     x_offset2_new[center - index] = x_offset2_new[center - index + 1] + x_offset2[center - index]
                     y_offset2_new[center + index] = y_offset2_new[center + index - 1] + y_offset2[center + index]
