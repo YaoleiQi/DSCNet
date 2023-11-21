@@ -4,6 +4,10 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2308.14383-b31b1b.svg)](https://arxiv.org/abs/2307.08388)
 [![GitHub](https://img.shields.io/github/stars/YaoleiQi/DSCNet)](https://github.com/YaoleiQi/DSCNet)
 
+[中文版论文](https://github.com/YaoleiQi/DSCNet/Fig/DSCNet_Chinese.pdf)
+
+[NEWS] 我们更新了论文的中文翻译版本。
+
 [NEWS!] We will soon open-source the **pre-trained parameters** of all our current training data, the TCLoss loss, and the **explanation of the complete training process** to help everyone better replicate our code and achieve the metrics in our paper. Thank you very much for your attention. *It has been quite challenging to maintain these codes on my own and cater to everyone's application needs. I truly appreciate everyone's patience while waiting.*
 
 [NOTE!!] We have uploaded two **_Tensorboard_** files to help observe the training process results.
