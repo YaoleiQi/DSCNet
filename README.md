@@ -4,7 +4,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2308.14383-b31b1b.svg)](https://arxiv.org/abs/2307.08388)
 [![GitHub](https://img.shields.io/github/stars/YaoleiQi/DSCNet)](https://github.com/YaoleiQi/DSCNet)
 
-[中文版论文](./Fig/DSCNet_Chinese.pdf)
+[中文版论文](https://yaoleiqi.github.io/publication/2023_ICCV/DSCNet_Chinese.pdf)
 
 [NEWS] 我们更新了论文的中文翻译版本。
 
