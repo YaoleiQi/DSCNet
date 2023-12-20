@@ -6,7 +6,7 @@
 
 [中文版论文](https://yaoleiqi.github.io/publication/2023_ICCV/DSCNet_Chinese.pdf)
 
-[NEWS] 我们更新了论文的中文翻译版本。
+[NEWS] 我们更新了论文的中文翻译版本！
 
 [NEWS!] We will soon open-source the **pre-trained parameters** of all our current training data, the TCLoss loss, and the **explanation of the complete training process** to help everyone better replicate our code and achieve the metrics in our paper. Thank you very much for your attention. *It has been quite challenging to maintain these codes on my own and cater to everyone's application needs. I truly appreciate everyone's patience while waiting.*
 
