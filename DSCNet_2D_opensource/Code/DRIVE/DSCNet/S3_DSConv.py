@@ -83,8 +83,8 @@ class DSC(object):
 
     def __init__(self, input_shape, kernel_size, extend_scope, morph, device):
         self.num_points = kernel_size
-        self.width = input_shape[2]
-        self.height = input_shape[3]
+        self.width = input_shape[3]
+        self.height = input_shape[2]
         self.morph = morph
         self.device = device
         self.extend_scope = extend_scope  # offset (-1 ~ 1) * extend_scope
