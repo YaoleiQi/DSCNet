@@ -4,6 +4,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2308.14383-b31b1b.svg)](https://arxiv.org/abs/2307.08388)
 [![GitHub](https://img.shields.io/github/stars/YaoleiQi/DSCNet)](https://github.com/YaoleiQi/DSCNet)
 
+[NEWS!!] We have open-sourced the NPU versions of our operators. This repository provides optimized implementations for NPU acceleration, aiming to improve performance and deployment efficiency on NPU-enabled hardware. We hope this project can help developers build and deploy more efficient AI applications on NPU platforms  [code]([https://github.com/QibiaoWu/TfeNet](https://github.com/Zhangyulong934/DSCNet_npu))!
+
 [NEWS!!] Huge thanks to our fellow researchers for helping us refactor the 3D Dynamic Snake Convolution from the ground up and optimize its implementation!
 The current version has been tested and shows excellent stability. Highly recommended for anyone interested in structure-aware 3D convolution — feel free to check out the DSConv module via the provided [code](https://github.com/QibiaoWu/TfeNet)!
 
