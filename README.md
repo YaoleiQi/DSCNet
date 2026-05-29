@@ -1,6 +1,5 @@
 # Dynamic Snake Convolution based on Topological Geometric Constraints for Tubular Structure Segmentation
 
-[![GitHub Page](https://img.shields.io/badge/GitHub-Page-159957.svg)](https://yaoleiqi.github.io/pub_homepage/2023_ICCV/index.html) 
 [![arXiv](https://img.shields.io/badge/arXiv-2308.14383-b31b1b.svg)](https://arxiv.org/abs/2307.08388)
 [![GitHub](https://img.shields.io/github/stars/YaoleiQi/DSCNet)](https://github.com/YaoleiQi/DSCNet)
 
@@ -8,8 +7,6 @@
 
 [NEWS!!] Huge thanks to our fellow researchers for helping us refactor the 3D Dynamic Snake Convolution from the ground up and optimize its implementation!
 The current version has been tested and shows excellent stability. Highly recommended for anyone interested in structure-aware 3D convolution — feel free to check out the DSConv module via the provided [code](https://github.com/QibiaoWu/TfeNet)!
-
-[中文版论文](https://yaoleiqi.github.io/publication/2023_ICCV/DSCNet_Chinese.pdf)
 
 [NEWS!!] We are dedicated to collecting, annotating, and open-sourcing the largest dataset of pan-tubular structures including over 10,000+ images, providing both instance- and binary-level annotations. We aim to release this dataset by the end of the year. Thank you all for your continued support and attention!
 
